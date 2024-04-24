@@ -93,7 +93,7 @@ while webcam.isOpened():
     image = np.expand_dims(image, 0)
     image = np.ascontiguousarray(image)
 
-    print("11111") #
+    #print("11111") 
 
     im = image.astype(np.float32)
     im /= 255
